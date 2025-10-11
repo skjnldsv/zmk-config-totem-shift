@@ -116,10 +116,10 @@
             //                                           └─────────┴─────────┴──────────┘└─────────┴─────────┴─────────┘
 
             bindings = <
-                    &kp A  &kp Z  &kp E      &kp R         &kp T        &kp Y      &kp U      &kp I             &kp O      &kp P
-                    &kp Q  &kp S  &kp D      &kp F         &kp G        &kp H      &kp J      &kp K             &kp L      &kp M
-&mt LEFT_SHIFT TAB  &kp W  &kp X  &kp C      &kp V         &kp B        &kp N      &kp COMMA  &kp SEMICOLON     &kp COLON  &kp EXCLAMATION  &dl 2 1
-                                  &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp BSPC   &kp LC(LEFT_WIN)
+                    &mt ESCAPE A  &kp Z  &kp E      &kp R         &kp T        &kp Y      &kp U      &kp I             &kp O      &kp P
+                    &kp Q         &kp S  &kp D      &kp F         &kp G        &kp H      &kp J      &kp K             &kp L      &kp M
+&mt LEFT_SHIFT TAB  &kp W         &kp X  &kp C      &kp V         &kp B        &kp N      &kp COMMA  &kp SEMICOLON     &kp COLON  &kp EXCLAMATION  &dl 2 1
+                                         &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp BSPC   &kp LC(LEFT_WIN)
             >;
         };
 
