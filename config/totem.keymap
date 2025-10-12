@@ -20,10 +20,8 @@
 #define GAME      4
 
 &mt {
-    quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
 };
 
 / {
@@ -170,10 +168,10 @@
             //                                           └─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┘
 
             bindings = <
-       &kp N1     &kp N2  &kp N3  &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans
-       &kp LSHFT  &kp Q   &kp Z   &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
-&none  &kp LCTRL  &kp X   &kp S   &kp C      &none        &trans  &trans  &trans  &trans  &trans  &to 0
-                          &kp A   &kp SPACE  &kp SPACE    &trans  &trans  &trans
+            &kp N1     &kp N2  &kp N3  &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans
+            &kp LSHFT  &kp A   &kp W   &kp D      &kp E        &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LCTRL  &kp X   &kp S   &kp C      &kp G        &trans  &trans  &trans  &trans  &trans  &to 0
+                               &kp Q   &kp SPACE  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
